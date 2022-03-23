@@ -1,5 +1,7 @@
-name: Testing
+name: Verify Links
+
 on: [push, pull_request]
+
 jobs:
   lint:
     name: ESLint
